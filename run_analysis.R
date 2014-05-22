@@ -54,7 +54,7 @@ data <- merge(data, activityLabels)
 ## Create a reduced dataset to work with from here
 reducedData <- data[, c(2, ncol(data), relevantFeatures + 2)]
 
-## Create the second tidy data set, calculating the means of all activities per subject and activity type
+## Create the tidy data set, calculating the means of all activities per subject and activity type
 tidy <- aggregate(reducedData[, 3:ncol(reducedData)], by = reducedData[, 1:2], FUN = mean)
 tidy <- tidy[order(tidy[, 1], tidy[, 2]), ]
 row.names(tidy) <- 1:nrow(tidy)
