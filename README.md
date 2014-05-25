@@ -56,6 +56,7 @@ The processing steps performed by the `run_analysis.R` script are clearly struct
 
    In total, 79 of the original 561 variables are deemed relevant using this approach. In particular, variables 555 - 561 are *not* considered relevant in the context of this exercise. Whilst they are calculated as a mean, the basis for their calculation is the angle() variable in the original dataset, which is considered irrelevant for the scope of this project.
 6. The labels for the relevant variables are cleaned-up, e.g. removing brackets, dashes and other unwanted characters. The labels are named following the "camel" approach to make them more readable, i.e. each component of the variable name starts with a capital letter (except for the first), but all other characters are lower case (e.g. `thisIsMyVariableName`).   
+In order to avoid that variables get too long and hence unreadable again, not all abbreviations in the input data set are transformed to cleartext (e.g. `fBodyAccMeanX` remains instead of `frequencySignalBodyLinearAccelerationMeanXAxisDirection`). A very detailed description of the variables is provided in the `CodeBook.md` file.    
 The cleaned-up names are applied to the data frame from step 4.
 7. The activity labels are cleaned-up in the same way (lower case, "camel" approach)
 8. The activity labels are merged into the combined data frame, so that each observation is not only identified by an activity ID, but also the respective clear-text activity name.
