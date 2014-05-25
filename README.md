@@ -53,9 +53,8 @@ The processing steps performed by the `run_analysis.R` script are clearly struct
 4. The data from step 2 is combined into one large data frame, so that each row contains a complete observation including the subject ID, activity ID and the respective measured variables. The test and train datasets are combined so that the data frame containes all observations from both sets.
 5. The relevant variables as per the project description are identified from the `featureLabels` object using regular expressions; the index of the relevant variables is stored in a new object `relevantFeatures`. The following variables are considered relevant:
    * Variables containing `mean()`, `std()`or `meanFreq()`within their respective name
-   * Variables 555 - 561, as the `features_info.txt`file explains that these are means as well that were obtained using a different technique   
 
-   In total, 86 of the original 561 variables are deemed relevant using this approach.
+   In total, 79 of the original 561 variables are deemed relevant using this approach. In particular, variables 555 - 561 are *not* considered relevant in the context of this exercise. Whilst they are calculated as a mean, the basis for their calculation is the angle() variable in the original dataset, which is considered irrelevant for the scope of this project.
 6. The labels for the relevant variables are cleaned-up, e.g. removing brackets, dashes and other unwanted characters. The labels are named following the "camel" approach to make them more readable, i.e. each component of the variable name starts with a capital letter (except for the first), but all other characters are lower case (e.g. `thisIsMyVariableName`).   
 The cleaned-up names are applied to the data frame from step 4.
 7. The activity labels are cleaned-up in the same way (lower case, "camel" approach)

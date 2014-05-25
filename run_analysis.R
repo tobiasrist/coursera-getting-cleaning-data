@@ -30,17 +30,17 @@ names(data)[1:2] <- c("subjectID", "activityID")
 means <- grep("mean\\(\\)", featureLabels[, 2])
 meanFreqs <- grep("meanFreq\\(\\)", featureLabels[, 2])
 stds <- grep("std\\(\\)", featureLabels[, 2])
-relevantFeatures <- sort(c(means, meanFreqs, stds, 555:561))  ## featureLabels 555:561 also represent mean values, as per the input data description
+relevantFeatures <- sort(c(means, meanFreqs, stds))
 
 ## Clean up & apply labels for the relevant features
 relevantFeatureLabels <- featureLabels[relevantFeatures, 2]
 relevantFeatureLabels <- sub("mean", "Mean", relevantFeatureLabels)
 relevantFeatureLabels <- sub("std", "Std", relevantFeatureLabels)
 relevantFeatureLabels <- sub("gravity", "Gravity", relevantFeatureLabels)
-relevantFeatureLabels <- sub("\\(t", "T", relevantFeatureLabels)
 relevantFeatureLabels <- gsub("-", "", relevantFeatureLabels)
 relevantFeatureLabels <- gsub(",", "", relevantFeatureLabels)
 relevantFeatureLabels <- gsub("\\(|\\)", "", relevantFeatureLabels)
+relevantFeatureLabels <- sub("BodyBody", "Body", relevantFeatureLabels) ## appears to be an inconsistency in the input data
 names(data)[relevantFeatures + 2] <- relevantFeatureLabels
 
 ## Clean up activity labels
