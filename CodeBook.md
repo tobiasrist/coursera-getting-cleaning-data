@@ -1,6 +1,90 @@
-# A Table
-
-Col 1 |Col 2|
-:-|:-:
-Something very cool|Something really, really, really cool. Let's just continue to write and see what happens when we get to the end of the line
-What's this?|And this?
+Variable Name|Type|Variable Description|Values / Transformations
+:-|:-|:-|:-
+subjectID|integer|subjectID|Value Range: 1:30
+activityName|character|activityName|Value Range: laying, sitting, standing, walking, walkingDownstairs, walkingUpstairs
+tBodyAccMeanX|numeric|Timeseries data of mean of body acceleration in x-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyAccMeanY|numeric|Timeseries data of mean of body acceleration in y-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyAccMeanZ|numeric|Timeseries data of mean of body acceleration in z-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyAccStdX|numeric|Timeseries data of BodyAccStd in x-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyAccStdY|numeric|Timeseries data of BodyAccStd in y-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyAccStdZ|numeric|Timeseries data of BodyAccStd in z-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tGravityAccMeanX|numeric|Timeseries data of GravityAccMean in x-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tGravityAccMeanY|numeric|Timeseries data of GravityAccMean in y-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tGravityAccMeanZ|numeric|Timeseries data of GravityAccMean in z-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tGravityAccStdX|numeric|Timeseries data of GravityAccStd in x-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tGravityAccStdY|numeric|Timeseries data of GravityAccStd in y-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tGravityAccStdZ|numeric|Timeseries data of GravityAccStd in z-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyAccJerkMeanX|numeric|Timeseries data of BodyAccJerkMean in x-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyAccJerkMeanY|numeric|Timeseries data of BodyAccJerkMean in y-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyAccJerkMeanZ|numeric|Timeseries data of BodyAccJerkMean in z-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyAccJerkStdX|numeric|Timeseries data of BodyAccJerkStd in x-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyAccJerkStdY|numeric|Timeseries data of BodyAccJerkStd in y-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyAccJerkStdZ|numeric|Timeseries data of BodyAccJerkStd in z-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyGyroMeanX|numeric|Timeseries data of BodyGyroMean in x-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyGyroMeanY|numeric|Timeseries data of BodyGyroMean in y-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyGyroMeanZ|numeric|Timeseries data of BodyGyroMean in z-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyGyroStdX|numeric|Timeseries data of BodyGyroStd in x-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyGyroStdY|numeric|Timeseries data of BodyGyroStd in y-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyGyroStdZ|numeric|Timeseries data of BodyGyroStd in z-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyGyroJerkMeanX|numeric|Timeseries data of BodyGyroJerkMean in x-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyGyroJerkMeanY|numeric|Timeseries data of BodyGyroJerkMean in y-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyGyroJerkMeanZ|numeric|Timeseries data of BodyGyroJerkMean in z-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyGyroJerkStdX|numeric|Timeseries data of BodyGyroJerkStd in x-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyGyroJerkStdY|numeric|Timeseries data of BodyGyroJerkStd in y-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyGyroJerkStdZ|numeric|Timeseries data of BodyGyroJerkStd in z-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyAccMagMean|numeric|Timeseries data of BodyAccMagMean|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyAccMagStd|numeric|Timeseries data of BodyAccMagStd|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tGravityAccMagMean|numeric|Timeseries data of GravityAccMagMean|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tGravityAccMagStd|numeric|Timeseries data of GravityAccMagStd|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyAccJerkMagMean|numeric|Timeseries data of BodyAccJerkMagMean|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyAccJerkMagStd|numeric|Timeseries data of BodyAccJerkMagStd|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyGyroMagMean|numeric|Timeseries data of BodyGyroMagMean|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyGyroMagStd|numeric|Timeseries data of BodyGyroMagStd|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyGyroJerkMagMean|numeric|Timeseries data of BodyGyroJerkMagMean|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+tBodyGyroJerkMagStd|numeric|Timeseries data of BodyGyroJerkMagStd|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyAccMeanX|numeric|Frequency signal data of mean of body acceleration in x-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyAccMeanY|numeric|Frequency signal data of mean of body acceleration in y-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyAccMeanZ|numeric|Frequency signal data of mean of body acceleration in z-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyAccStdX|numeric|Frequency signal data of BodyAccStd in x-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyAccStdY|numeric|Frequency signal data of BodyAccStd in y-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyAccStdZ|numeric|Frequency signal data of BodyAccStd in z-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyAccMeanFreqX|numeric|Frequency signal data of mean frequency of body acceleration in x-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyAccMeanFreqY|numeric|Frequency signal data of mean frequency of body acceleration in y-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyAccMeanFreqZ|numeric|Frequency signal data of mean frequency of body acceleration in z-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyAccJerkMeanX|numeric|Frequency signal data of BodyAccJerkMean in x-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyAccJerkMeanY|numeric|Frequency signal data of BodyAccJerkMean in y-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyAccJerkMeanZ|numeric|Frequency signal data of BodyAccJerkMean in z-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyAccJerkStdX|numeric|Frequency signal data of BodyAccJerkStd in x-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyAccJerkStdY|numeric|Frequency signal data of BodyAccJerkStd in y-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyAccJerkStdZ|numeric|Frequency signal data of BodyAccJerkStd in z-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyAccJerkMeanFreqX|numeric|Frequency signal data of mean frequency Jerk signal of body acceleration in x-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyAccJerkMeanFreqY|numeric|Frequency signal data of mean frequency Jerk signal of body acceleration in y-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyAccJerkMeanFreqZ|numeric|Frequency signal data of mean frequency Jerk signal of body acceleration in z-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyGyroMeanX|numeric|Frequency signal data of BodyGyroMean in x-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyGyroMeanY|numeric|Frequency signal data of BodyGyroMean in y-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyGyroMeanZ|numeric|Frequency signal data of BodyGyroMean in z-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyGyroStdX|numeric|Frequency signal data of BodyGyroStd in x-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyGyroStdY|numeric|Frequency signal data of BodyGyroStd in y-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyGyroStdZ|numeric|Frequency signal data of BodyGyroStd in z-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyGyroMeanFreqX|numeric|Frequency signal data of BodyGyroMeanFreq in x-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyGyroMeanFreqY|numeric|Frequency signal data of BodyGyroMeanFreq in y-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyGyroMeanFreqZ|numeric|Frequency signal data of BodyGyroMeanFreq in z-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyAccMagMean|numeric|Frequency signal data of BodyAccMagMean|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyAccMagStd|numeric|Frequency signal data of BodyAccMagStd|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyAccMagMeanFreq|numeric|Frequency signal data of BodyAccMagMeanFreq|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyBodyAccJerkMagMean|numeric|Frequency signal data of BodyBodyAccJerkMagMean|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyBodyAccJerkMagStd|numeric|Frequency signal data of BodyBodyAccJerkMagStd|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyBodyAccJerkMagMeanFreq|numeric|Frequency signal data of BodyBodyAccJerkMagMeanFreq|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyBodyGyroMagMean|numeric|Frequency signal data of BodyBodyGyroMagMean|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyBodyGyroMagStd|numeric|Frequency signal data of BodyBodyGyroMagStd|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyBodyGyroMagMeanFreq|numeric|Frequency signal data of BodyBodyGyroMagMeanFreq|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyBodyGyroJerkMagMean|numeric|Frequency signal data of BodyBodyGyroJerkMagMean|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyBodyGyroJerkMagStd|numeric|Frequency signal data of BodyBodyGyroJerkMagStd|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+fBodyBodyGyroJerkMagMeanFreq|numeric|Frequency signal data of BodyBodyGyroJerkMagMeanFreq|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+angleTBodyAccMeanGravity|numeric|angleTmean of body accelerationGravity|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+angleTBodyAccJerkMeanGravityMean|numeric|angleTBodyAccJerkMeanGravityMean|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+angleTBodyGyroMeanGravityMean|numeric|angleTBodyGyroMeanGravityMean|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+angleTBodyGyroJerkMeanGravityMean|numeric|angleTBodyGyroJerkMeanGravityMean|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+angleXGravityMean|numeric|angleXGravityMean|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+angleYGravityMean|numeric|angleYGravityMean|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
+angleZGravityMean|numeric|angleZGravityMean|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
