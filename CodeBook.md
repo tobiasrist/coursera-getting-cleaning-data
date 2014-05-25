@@ -1,5 +1,5 @@
 Variable Name|Type|Variable Description|Values / Transformations
-:-|:-|:-|:-
+:---|:---|:---|:---
 subjectID|integer|subjectID|Value Range: 1:30
 activityName|character|activityName|Value Range: laying, sitting, standing, walking, walkingDownstairs, walkingUpstairs
 tBodyAccMeanX|numeric|Timeseries data of mean of body acceleration in x-axis direction|The average of all individual observations for each subjectID / activityName combination was calculated using the mean() function of R
